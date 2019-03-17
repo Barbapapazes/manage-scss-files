@@ -1,0 +1,55 @@
+/*--------------------
+    MAIN SCSS FILE 
+--------------------*/
+
+// Reset CSS
+//@import 'style/reset/reset';
+// Variables
+@import 'style/variables/variables';
+
+/*--------------------
+        Base 
+--------------------*/
+
+
+/*Simple rules*/
+
+// Syle HTML-Body
+@import 'style/base/html-body';
+// Syle Content
+@import 'style/base/content/content';
+// Syle Content-Responsive
+@import 'style/base/content/contentResponsive';
+
+/*--------------------
+        Layout 
+--------------------*/
+
+
+/*Design of the main elements*/
+
+// Style Navbar
+@import 'style/layout/navbar/navbar';
+// Style NavBar Responsive
+@import 'style/layout/navbar/navbarResponsive';
+// Style Aside
+@import 'style/layout/aside/aside';
+// Style Aside Responsive
+@import 'style/layout/aside/asideResponsive';
+// Style Footer
+@import 'style/layout/footer/footer';
+// Style Footer Responsive
+@import 'style/layout/footer/footerResponsive';
+
+/*--------------------
+        Your Files 
+--------------------*/
+
+
+/*Desgin for the specifics elements, like a special page, of your site*/
+
+// Style {your element}
+@import '';
+// Style {your element} Responsive
+@import '';
+// Add files for the others pages of your web site
