@@ -8,11 +8,27 @@
 @import 'style/variables/variables';
 
 /*--------------------
+        Theme 
+--------------------*/
+
+
+/*
+Color for your pages
+*/
+
+// Style Color Dark
+@import 'style/theme/dark';
+// Style Color Light
+@import 'style/theme/light';
+
+/*--------------------
         Base 
 --------------------*/
 
 
-/*Simple rules*/
+/*
+Basics rules
+*/
 
 // Syle HTML-Body
 @import 'style/base/html-body';
@@ -26,7 +42,10 @@
 --------------------*/
 
 
-/*Design of the main elements*/
+/*
+Design of the main elements
+WITHOUT Color
+*/
 
 // Style Navbar
 @import 'style/layout/navbar/navbar';
